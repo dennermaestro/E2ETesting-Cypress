@@ -1,0 +1,12 @@
+{
+  "name": "cypress-script-po",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^14.2.1",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
