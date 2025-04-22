@@ -61,7 +61,9 @@ cypress.config.js         # Configuração do Cypress
  ✅ Cenários Automatizados
 
 -> Cadastro e adição de produto a Lista de Compras
-
+-
+ create_user_and_add_product.cy.js
+ 
 1. Cadastrar novo usuário
 2. Logado automaticamente na UI
 3. Pesquisa pelo produto específico
@@ -71,6 +73,8 @@ cypress.config.js         # Configuração do Cypress
 
 
 -> Busca e validação de produto na lista de Compras
+-
+search_add_and_validate_cart.cy.js
 
 1. Cadastrar novo usuário
 2. Logado automaticamente na UI
@@ -82,7 +86,8 @@ cypress.config.js         # Configuração do Cypress
 
 
  -> Remoção e adição de novo produto
-
+-
+full_cart_flow.cy.js
 1. Cadastrar novo usuário
 2. Logado automaticamente na UI
 3. Pesquisa pelo produto
