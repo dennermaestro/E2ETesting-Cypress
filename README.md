@@ -62,37 +62,37 @@ cypress.config.js         # Configuração do Cypress
 
 1. Cadastro e adição de produto a Lista de Compras
 
-Cadastrar novo usuário
-Logado automaticamente na UI
-Pesquisa pelo produto específico
-Adiciona produto a lista de compras
-Retorna a Home
-Finaliza sessão
+-Cadastrar novo usuário
+-Logado automaticamente na UI
+-Pesquisa pelo produto específico
+-Adiciona produto a lista de compras
+-Retorna a Home
+-Finaliza sessão
 
 
 2. Busca e validação de produto na lista de Compras
 
-Cadastrar novo usuário
-Logado automaticamente na UI
-Pesquisa pelo produto
-Adiciona produto a lista de compras
-Consulta produto na lista de compras
-Retorna a Home
-Finaliza sessão
+-Cadastrar novo usuário
+-Logado automaticamente na UI
+-Pesquisa pelo produto
+-Adiciona produto a lista de compras
+-Consulta produto na lista de compras
+-Retorna a Home
+-Finaliza sessão
 
 
 3. Remoção e adição de novo produto
 
-Cadastrar novo usuário
-Logado automaticamente na UI
-Pesquisa pelo produto
-Adiciona produto a lista de compras
-Consulta produto na lista de compras
-Remova produto na lista de compras
-Retorna a Home
-Pesquisa novo produto e adicione um novo
-Consulta produto na lista de compras
-Finaliza sessão
+-Cadastrar novo usuário
+-Logado automaticamente na UI
+-Pesquisa pelo produto
+-Adiciona produto a lista de compras
+-Consulta produto na lista de compras
+-Remova produto na lista de compras
+-Retorna a Home
+-Pesquisa novo produto e adicione um novo
+-Consulta produto na lista de compras
+-Finaliza sessão
 
 
 
