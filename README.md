@@ -1,46 +1,49 @@
- 💻 Desafio Técnico - Automação Frontend com Cypress
+ 💻  - Automação Frontend com Cypress
 
-Este projeto foi desenvolvido para apresentar os 5 desafios propostos para o FrontEnd
-[DemoQA](https://demoqa.com/).
+Este projeto tem como objetivo validar cenários de ponta a ponta (E2E) em uma aplicação web de e-commerce, utilizando o framework Cypress com JavaScript puro.
 
-//////
+Foram implementados 3 cenários automatizados, cobrindo cadastro de usuários, busca de produtos, manipulação de carrinho de compras e logout, utilizando boas práticas de organização de testes e Page Object Model.
+
+[UI](https://front.serverest.dev//).
+
+
 
  Tecnologias Utilizadas
 
 - Cypress
 - JavaScript
 - Page Object
-- Comandos customizados (drag & drop)
-- Cypress File Upload
 
 ---
 
 #Walkthrough
 
+Setup
+
+1. Instale as dependências 
+
+npm install
+
+2. Execute a interface do Cypress
+
+npx cypress open
+
+3. Execute em modo headless (OPCIONAL)
+
+npx cypress run
+
+
+* É possível que haja falhas nas primeiras execuções. Certifique de ter configurado corretamente, e rode-o novamente
+
+
+
+Setup para Git
+
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/dennermaestro/desafiotecnicoQA
+   git clone https://github.com/dennermaestro/E2ETesting-Cypress
   
-
-
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-
-3. Execute o Cypress em modo interativo:
-   ```bash
-   npx cypress open
-   ```
-
-4. Ou execute todos os testes em modo headless:
-   ```bash
-   npx cypress run
-   ```
-5. Execute no terminal npx cypress open para ter visualização UI e suas dependências
-
-
-6. Execute o projeto no todo utilizando npx cypress open - Listando item a item
+2. Execute o projeto no todo utilizando npx cypress open - Listando item a item
 
 
 #Estrutura do Projeto
@@ -57,35 +60,59 @@ cypress.config.js         # Configuração do Cypress
 
  ✅ Cenários Automatizados
 
-1. Practice Form
-   - Preenche formulário completo com upload de imagem  
-   - Valida popup de sucesso
+1. Cadastro e adição de produto a Lista de Compras
 
-2. Browser Windows 
-   - Clica no botão "New Window"  
-   - Valida o conteúdo da nova página aberta
-
-3. Web Tables
-   - Cria, edita e deleta um registro na tabela
-
-4. Progress Bar 
-   - Inicia e para antes dos 25%  
-   - Reinicia e reseta ao chegar nos 100%
-
-5. Sortable List**  
-   - Reorganiza os itens da lista via drag and drop para ordem crescente
+Cadastrar novo usuário
+Logado automaticamente na UI
+Pesquisa pelo produto específico
+Adiciona produto a lista de compras
+Retorna a Home
+Finaliza sessão
 
 
+2. Busca e validação de produto na lista de Compras
+
+Cadastrar novo usuário
+Logado automaticamente na UI
+Pesquisa pelo produto
+Adiciona produto a lista de compras
+Consulta produto na lista de compras
+Retorna a Home
+Finaliza sessão
+
+
+3. Remoção e adição de novo produto
+
+Cadastrar novo usuário
+Logado automaticamente na UI
+Pesquisa pelo produto
+Adiciona produto a lista de compras
+Consulta produto na lista de compras
+Remova produto na lista de compras
+Retorna a Home
+Pesquisa novo produto e adicione um novo
+Consulta produto na lista de compras
+Finaliza sessão
+
+
+
+------
+ Tecnologias Utilizadas
+Cypress 12+
+
+JavaScript
+
+Faker.js para geração de dados dinâmicos
+
+Page Object Model (POM)
 
 ---
-
-
-Desenvolvido por Denner Santana
-
----
-
 📌 Observações
 
 - Projeto 100% funcional com Cypress v14.2.1
 - Não utilizado Cucumber, apenas JavaScript puro com boas práticas
 - Compatível com Node.js v18
+
+Desenvolvido por Denner Santana
+
+
