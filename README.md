@@ -60,61 +60,39 @@ cypress.config.js         # Configuração do Cypress
 
  ✅ Cenários Automatizados
 
-1. Cadastro e adição de produto a Lista de Compras
+-> Cadastro e adição de produto a Lista de Compras
 
-A. Cadastrar novo usuário
-
-B. Logado automaticamente na UI
-
-C. Pesquisa pelo produto específico
-
-D. Adiciona produto a lista de compras
-
-E. Retorna a Home
-
-F. Finaliza sessão
+1. Cadastrar novo usuário
+2. Logado automaticamente na UI
+3. Pesquisa pelo produto específico
+4. Adiciona produto a lista de compras
+5. Retorna a Home
+6. Finaliza sessão
 
 
-2. Busca e validação de produto na lista de Compras
+-> Busca e validação de produto na lista de Compras
 
--
-Cadastrar novo usuário
--
-Logado automaticamente na UI
--
-Pesquisa pelo produto
--
-Adiciona produto a lista de compras
--
-Consulta produto na lista de compras
--
-Retorna a Home
--
-Finaliza sessão
+1. Cadastrar novo usuário
+2. Logado automaticamente na UI
+3. Pesquisa pelo produto
+4. Adiciona produto a lista de compras
+5. Consulta produto na lista de compras
+6. Retorna a Home
+7. Finaliza sessão
 
 
-3. Remoção e adição de novo produto
+ -> Remoção e adição de novo produto
 
--
-Cadastrar novo usuário
--
-Logado automaticamente na UI
--
-Pesquisa pelo produto
--
-Adiciona produto a lista de compras
--
-Consulta produto na lista de compras
--
-Remova produto na lista de compras
--
-Retorna a Home
--
-Pesquisa novo produto e adicione um novo
--
-Consulta produto na lista de compras
--
-Finaliza sessão
+1. Cadastrar novo usuário
+2. Logado automaticamente na UI
+3. Pesquisa pelo produto
+4. Adiciona produto a lista de compras
+5. Consulta produto na lista de compras
+6. Remova produto na lista de compras
+7. Retorna a Home
+8. Pesquisa novo produto e adicione um novo
+9. Consulta produto na lista de compras
+10. Finaliza sessão
 
 
 
